@@ -19,18 +19,18 @@ matrix:
 os:
   - linux
 
-notifications:
-  irc: "chat.freenode.net#hoaproject"
+#notifications:
+#  irc: "chat.freenode.net#hoaproject"
 
 sudo: false
 
-env:
-  global:
-    - secure: "AAAAB3NzaC1yc2EAAAADAQABAAAAgQCecwgg2D4ihDiYD9Af7hU7oroL108l1BJaxZ9N0GXmoaJj3JOHKjXgUjizhma5nftXRBJOcIhT4GsLAnFeNKgJv/97cAvm7miHeTLYPOiOpkrf/Zl7UIQ0MKSX91YKdneAGRDFaY0Tq5B9KjK68vu0Cof35h+cf59Ld3hTzrGPZw=="
+#env:
+#  global:
+#    - secure: "AAAAB3NzaC1yc2EAAAADAQABAAAAgQCecwgg2D4ihDiYD9Af7hU7oroL108l1BJaxZ9N0GXmoaJj3JOHKjXgUjizhma5nftXRBJOcIhT4GsLAnFeNKgJv/97cAvm7miHeTLYPOiOpkrf/Zl7UIQ0MKSX91YKdneAGRDFaY0Tq5B9KjK68vu0Cof35h+cf59Ld3hTzrGPZw=="
 
-cache:
-  directories:
-    - vendor/
+#cache:
+#  directories:
+#    - vendor/
 
 before_script:
   - export PATH="$PATH:$HOME/.composer/vendor/bin"
